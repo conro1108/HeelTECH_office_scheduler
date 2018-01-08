@@ -10,10 +10,10 @@ class Offices
 
 
   public static function connect() {
-    return new mysqli("classroom.cs.unc.edu", 
-                      "cdrowe",
-                      "mexic@n1comp", 
-                      "cdrowedb");
+    return new mysqli("*", 
+                      "*",
+                      "*", 
+                      "*");
   }
 
   public static function create($description, $perm, $perm_recur) {

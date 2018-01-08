@@ -11,10 +11,10 @@ class Reservations
 	private $description;
 
 	public static function connect(){
-		return new mysqli("classroom.cs.unc.edu", 
-		                  "cdrowe", 
-		                  "mexic@n1comp", 
-		                  "cdrowedb");
+		return new mysqli("*", 
+		                  "*", 
+		                  "*", 
+		                  "*");
 	}
 
 	public static function create($userID, $officeID, $starttime, $duration, $description){

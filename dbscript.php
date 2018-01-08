@@ -1,9 +1,9 @@
 <?php
 
-$servername = "classroom.cs.unc.edu";
-$username = "cdrowe";
-$password = "mexic@n1comp";
-$dbname = "cdrowedb";
+$servername = "*";
+$username = "*";
+$password = "*";
+$dbname = "*";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 
