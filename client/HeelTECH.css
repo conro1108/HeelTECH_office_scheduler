@@ -1,0 +1,88 @@
+.resDiv{
+    padding: 2px;
+}
+.resDiv:nth-child(odd){
+    background-color: #b9e7ff;
+}
+#logoDiv{
+    text-align: center;
+}
+#logoImg{
+    margin: 0 auto;
+    max-width: 75%;
+    width: auto;
+    height: auto;
+}
+.resDiv:nth-child(even){
+    background-color: #e2f3ff;
+}
+.officeBtn{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.officeBtn:nth-child(even){
+    background-color: #e2f3ff;
+}
+.officeBtn:nth-child(even):hover{
+    background-color: #d7d6d5;
+}
+.officeBtn:nth-child(odd){
+    background-color: #b9e7ff;
+}
+.officeBtn:nth-child(odd):hover{
+    background-color: #d7d6d5;
+}
+#resInfoDiv{
+    display: inline-block;
+    width: 70%;
+    float: left;
+}
+#resBtnDiv{
+    float: right;
+    width: 100px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    display: inline-flex;
+}
+#logout{
+    display: inline-block;
+    width: 5em;
+    float: right;
+}
+#userDisp{
+    display: inline-block;
+    float: left;
+}
+#logout:hover{
+    background-color: #dde2ff;
+}
+#centerDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#lowerDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loginElem{
+    margin:10px;
+}
+.loginBtn{
+    margin: 10px;
+}
+#loginDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
